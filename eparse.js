@@ -10,7 +10,7 @@ eparse.tokenize = function(str) {
     // Delete spaces from the beginning of the input
     var deleteSpaces = function() {
         var pos = 0;
-        while (/\s/.test(input[pos]) && pos < input.length)
+        while (/\s/.test(input.charAt(pos)) && pos < input.length)
             pos++;
         input = input.substr(pos);
     };

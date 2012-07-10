@@ -41,6 +41,8 @@ Its parser is about 200 lines.
 
 https://github.com/nishio/Parser-on-browser
 
+See ``guide.rst`` for a high-level guide of the code.
+
 
 License
 =======
